@@ -1,0 +1,14 @@
+# Changes here will be overwritten by Copier
+# Do not modify this file directly
+# To update the project using the original template, run make copier-update
+_commit: v1.0.0-13-ge6d829c
+_src_path: /Users/abrahm/Documents/Projects/python-project-template
+default_branch: main
+enable_dependabot_version_updates: false
+module_name: python_template_demo
+package_manager: poetry
+repository_description: My app
+repository_name: python-template-demo
+repository_owner: RuleTheArk
+repository_visibility: private
+set_up_git_repo: true
