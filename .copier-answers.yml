@@ -1,12 +1,13 @@
 # Changes here will be overwritten by Copier
 # Do not modify this file directly
 # To update the project using the original template, run make copier-update
-_commit: v1.0.0-17-g8b04be7
+_commit: v1.0.0-19-g7d970d6
 _src_path: /Users/abrahm/Documents/Projects/python-project-template
 default_branch: main
 enable_dependabot_version_updates: false
 module_name: python_template_demo
 package_manager: pipenv
+repo_settings: recommended
 repository_description: My app
 repository_name: python-template-demo
 repository_owner: RuleTheArk
