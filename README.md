@@ -47,7 +47,7 @@ Ensure you have the following installed:
 1. Clone the repository and install the required dependencies.
 
    ```bash
-   git clone https://github.com/ONSdigital/my-python-app.git
+   git clone https://github.com/RuleTheArk/python-template-demo.git
    ```
 
 2. Install dependencies
