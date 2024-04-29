@@ -1,7 +1,7 @@
 # Changes here will be overwritten by Copier
 # Do not modify this file directly
 # To update the project using the original template, run make copier-update
-_commit: v1.0.0-20-gad4c301
+_commit: v1.0.0-20-gebd252d
 _src_path: /Users/abrahm/Documents/Projects/python-project-template
 default_branch: main
 dismiss_stale_reviews: true
@@ -15,5 +15,5 @@ repository_owner: RuleTheArk
 repository_visibility: private
 require_conversation_resolution: false
 require_last_push_approval: true
-required_approving_review_count: 2
+required_approving_review_count: 1
 set_up_git_repo: true
