@@ -2,6 +2,7 @@
 
 [![Build Status](https://github.com/RuleTheArk/python-template-demo/actions/workflows/ci.yml/badge.svg)](https://github.com/RuleTheArk/python-template-demo/actions/workflows/ci.yml)
 [![Build Status](https://github.com/RuleTheArk/python-template-demo/actions/workflows/mega-linter.yml/badge.svg)](https://github.com/RuleTheArk/python-template-demo/actions/workflows/mega-linter.yml)
+[![Build Status](https://github.com/RuleTheArk/python-template-demo/actions/workflows/codeql.yml/badge.svg)](https://github.com/RuleTheArk/python-template-demo/actions/workflows/codeql.yml)
 
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 [![Linting: Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/charliermarsh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
