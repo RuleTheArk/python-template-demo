@@ -36,11 +36,11 @@ mypy:  ## Run mypy.
 
 .PHONY: install
 install:  ## Install the dependencies excluding dev.
-	poetry install --only main --no-root
+	poetry install --only main
 
 .PHONY: install-dev
 install-dev:  ## Install the dependencies including dev.
-	poetry install --no-root
+	poetry install
 
 .PHONY: megalint
 megalint:  ## Run the mega-linter.
