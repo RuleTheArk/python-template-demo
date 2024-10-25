@@ -17,7 +17,7 @@ clean: ## Clean the temporary files.
 
 .PHONY: run
 run:  ## Run the application
-    poetry run python python_template_demo
+	poetry run python python_template_demo
 
 .PHONY: format
 format:  ## Format the code.
