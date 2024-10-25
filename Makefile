@@ -48,3 +48,6 @@ megalint:  ## Run the mega-linter.
 		-v /var/run/docker.sock:/var/run/docker.sock:rw \
 		-v $(shell pwd):/tmp/lint:rw \
 		oxsecurity/megalinter:v7
+.PHONY: run
+run:  ## Run the application
+    poetry run python python_template_demo
