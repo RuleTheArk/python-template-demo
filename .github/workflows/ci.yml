@@ -17,14 +17,15 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v4
-      - name: Install Poetry
-        run: pipx install poetry==1.7.1
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version-file: .python-version
-          cache: poetry
+          cache: pipenv
+
+      - name: Install Pipenv
+        run: pipx install pipenv==2023.12.1
 
       - name: Install dependencies
         run: make install-dev
