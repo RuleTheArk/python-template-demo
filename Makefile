@@ -15,36 +15,32 @@ clean: ## Clean the temporary files.
 	rm -rf .ruff_cache
 	rm -rf megalinter-reports
 
-.PHONY: run
-run:  ## Run the application
-	pipenv run python python_template_demo
-
 .PHONY: format
 format:  ## Format the code.
-	pipenv run black .
-	pipenv run ruff check . --fix
+	poetry run black .
+	poetry run ruff check . --fix
 
 .PHONY: lint
 lint:  ## Run all linters (black/ruff/pylint/mypy).
-	pipenv run black --check .
-	pipenv run ruff check .
+	poetry run black --check .
+	poetry run ruff check .
 	make mypy
 
 .PHONY: test
 test:  ## Run the tests and check coverage.
-	pipenv run pytest -n auto --cov=python_template_demo --cov-report term-missing --cov-fail-under=100
+	poetry run pytest -n auto --cov=python_template_demo --cov-report term-missing --cov-fail-under=100
 
 .PHONY: mypy
 mypy:  ## Run mypy.
-	pipenv run mypy python_template_demo
+	poetry run mypy python_template_demo
 
 .PHONY: install
 install:  ## Install the dependencies excluding dev.
-	pipenv install
+	poetry install --only main --no-root
 
 .PHONY: install-dev
 install-dev:  ## Install the dependencies including dev.
-	pipenv install --dev
+	poetry install --no-root
 
 .PHONY: megalint
 megalint:  ## Run the mega-linter.
