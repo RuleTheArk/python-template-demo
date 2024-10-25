@@ -1,8 +1,8 @@
 # Changes here will be overwritten by Copier
 # Do not modify this file directly
 # To update the project using the original template, run make copier-update
-_commit: v1.0.0-4-g39a236a
-_src_path: /Users/abrahm/Documents/Projects/ons-python-template
+_commit: v1.0.0-26-g7ae9c96
+_src_path: /Users/abrahm/Documents/Projects/python-project-template
 default_branch: main
 dependabot_open_pull_requests_limit: 10
 enable_dependabot_version_updates: true
